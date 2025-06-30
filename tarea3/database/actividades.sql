@@ -80,7 +80,7 @@ INSERT INTO actividad_tema (tema, actividad_id) VALUES ('música', @actividad_id
 
 -- ## Actividad 10: (Comuna: Santiago, ID: 130208) 
 INSERT INTO actividad (comuna_id, sector, nombre, email, dia_hora_inicio, dia_hora_termino, descripcion)
-VALUES (130208, 'Beauchef 851', 'Hacker McHack', 'python.dcc@email.com', '2025-09-20 14:00:00', '2025-09-20 18:00:00', 'Taller de Programación con Python');
+VALUES (130208, 'Beauchef 851', 'Hacker McHack', 'python.dcc@email.com', '2025-05-20 14:00:00', '2025-06-20 18:00:00', 'Taller de Programación con Python');
 SET @actividad_id_10 = LAST_INSERT_ID();
 INSERT INTO foto (ruta_archivo, nombre_archivo, actividad_id) VALUES ('python.png', 'python.png', @actividad_id_10);
 INSERT INTO actividad_tema (tema, actividad_id) VALUES ('tecnología', @actividad_id_10);

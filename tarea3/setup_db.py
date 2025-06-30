@@ -11,7 +11,8 @@ sql_scripts = [
     "tarea2.sql",
     "region-comuna.sql", 
     "tabla-comentario.sql",
-    "actividades.sql"
+    "actividades.sql",
+    "tabla-nota.sql"
 ]
 
 def run_sql_script(script_path, user, password, db_name):

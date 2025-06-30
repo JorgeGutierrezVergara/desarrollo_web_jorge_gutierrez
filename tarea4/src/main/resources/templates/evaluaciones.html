@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluación de Actividades</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <a href="http://localhost:5000/">ACTIVIDADES EN BEAUCHEFF HELLYEAH</a>
+      </h1>
+      <div class="navbar">
+        <a href="http://localhost:5000/agregar" class="section"
+          >AGREGAR ACTIVIDAD 🛠️</a
+        >
+        <a href="http://localhost:5000/listado" class="section"
+          >VER OTRAS ACTIVIDADES 🔍</a
+        >
+        <a href="http://localhost:5000/estadisticas" class="section"
+          >ESTADÍSTICAS ☝️🤓</a
+        >
+        <a href="/evaluaciones" class="section">EVALUAR ACTIVIDADES ⭐</a>
+      </div>
+
+      <h2>Evalúa las actividades realizadas</h2>
+
+      <table id="actividadesTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Fecha Inicio</th>
+            <th>Sector</th>
+            <th>Descripcion</th>
+            <th>Nota Promedio</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <p
+        id="noActivitiesMessage"
+        class="no-activities-message"
+        style="display: none"
+      >
+        No hay actividades realizadas disponibles para evaluar en este momento.
+      </p>
+    </div>
+
+    <script src="/js/evaluaciones.js"></script>
+  </body>
+</html>
