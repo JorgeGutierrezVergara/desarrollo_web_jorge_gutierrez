@@ -14,10 +14,10 @@ Para que la aplicación funcione en su totalidad, se deben iniciar ambos servido
    > python app.py
 5. Abrir otra consola en /tarea4 y ejecutar:
    > ./mvnw spring-boot:run
-6. Para dirigirse al inicio de la app:
+   > 6.1 Para dirigirse al inicio de la app:
    > http://localhost:5000
 
-Para dirigirse directamente a las evaluaciones:
+6.2 Para dirigirse directamente a las evaluaciones:
 
 > http://localhost:8080/evaluaciones
 
